@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  gap: 30px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.date {
+  color: #5f6e85;
+  white-space: nowrap;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.habilidades-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  div {
+    border-radius: 310px;
+    padding: 5px 10px 5px 10px;
+    color: #4fc3b6;
+    background-color: #4fc3b630;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}

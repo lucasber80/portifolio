@@ -1,0 +1,13 @@
+<div class="card">
+  <div class="date">{{ dates[0] }} - {{ dates[1] }}</div>
+  <div>
+    <div class="title">{{ cargo }}</div>
+    <div class="subtitle">{{ empresa }}</div>
+    <p>
+      {{ desc }}
+    </p>
+    <div class="habilidades-row">
+      <div *ngFor="let habilidade of habilidades">{{ habilidade }}</div>
+    </div>
+  </div>
+</div>

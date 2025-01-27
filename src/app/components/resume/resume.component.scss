@@ -1,0 +1,23 @@
+.content {
+  width: 100%;
+}
+
+.experiencia-column {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 150px;
+}
+
+.educacao-column {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 150px;
+}
+
+.sobre-mim {
+  p {
+    line-height: 25px;
+  }
+}
