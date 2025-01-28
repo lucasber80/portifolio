@@ -14,4 +14,5 @@ export class CardExperienciaComponent {
   @Input() desc: string = '';
   @Input() cargo: string = '';
   @Input() empresa: string = '';
+  @Input() link: string = '';
 }

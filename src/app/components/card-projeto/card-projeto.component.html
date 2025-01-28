@@ -1,13 +1,12 @@
-<a class="card-experiencia" [href]="link" target="_blank">
-  <div class="date">{{ dates[0] }} - {{ dates[1] }}</div>
+<a class="card-projeto" (click)="cardClicado()">
+  <div class="image-icon"><img [src]="img" /></div>
   <div>
     <div class="title">
-      {{ cargo }}
+      {{ titulo }}
       <div class="icon-arrow">
         <i class="bi bi-arrow-up-right"></i>
       </div>
     </div>
-    <div class="subtitle">{{ empresa }}</div>
     <p>
       {{ desc }}
     </p>

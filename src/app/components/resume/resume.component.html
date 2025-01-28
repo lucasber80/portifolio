@@ -1,5 +1,5 @@
 <div class="content">
-  <div class="title">Sobre mim</div>
+  <!-- <div class="title">Sobre mim</div>
   <div class="sobre-mim">
     <p>
       Sou um desenvolvedor full stack apaixonado por criar soluções web
@@ -31,6 +31,7 @@
       [dates]="educacao.dates"
       [cargo]="educacao.cargo"
       [empresa]="educacao.empresa"
+      [link]="educacao.link"
     ></app-card-experiencia>
   </div>
   <div class="experiencia-column">
@@ -43,6 +44,20 @@
       [desc]="experiencia.desc"
       [empresa]="experiencia.empresa"
       [habilidades]="experiencia.habilidades"
+      [link]="experiencia.link"
     ></app-card-experiencia>
+  </div> -->
+  <div class="experiencia-column">
+    <div class="title">Projetos</div>
+
+    <app-card-projeto
+      *ngFor="let projeto of projetos"
+      [img]="projeto.img"
+      [desc]="projeto.desc"
+      [link]="projeto.link"
+      [titulo]="projeto.titulo"
+      [habilidades]="projeto.habilidades"
+      [carousel_imgs]="projeto.carousel_imgs ?? []"
+    ></app-card-projeto>
   </div>
 </div>

@@ -1,4 +1,4 @@
-.card-experiencia {
+.card-projeto {
   display: flex;
   gap: 30px;
   font-weight: bold;
@@ -7,7 +7,6 @@
   padding: 20px;
   cursor: pointer;
   text-decoration: none;
-  background-color: transparent;
   .icon-arrow {
     font-size: 12px;
     margin-left: 8px;
@@ -21,7 +20,7 @@
   }
 }
 
-.card-experiencia:hover {
+.card-projeto:hover {
   border-radius: 10px;
   background-color: #4fc3b608;
   .title {
@@ -32,10 +31,12 @@
   }
 }
 
-.date {
-  color: #5f6e85;
-  white-space: nowrap;
-  padding-top: 3px;
+.image-icon {
+  img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+  }
 }
 
 p {
