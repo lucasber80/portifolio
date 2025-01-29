@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component } from '@angular/core';
 import { CardExperienciaComponent } from '../card-experiencia/card-experiencia.component';
 import { CommonModule } from '@angular/common';
 import { CardProjetoComponent } from '../card-projeto/card-projeto.component';

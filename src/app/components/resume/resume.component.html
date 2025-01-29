@@ -1,29 +1,32 @@
 <div class="content">
-  <!-- <div class="title">Sobre mim</div>
-  <div class="sobre-mim">
-    <p>
-      Sou um desenvolvedor full stack apaixonado por criar soluções web
-      acessíveis e de alta performance. Combinando design funcional e robustez
-      técnica, meu trabalho é focado em entregar experiências digitais
-      excepcionais, utilizando as melhores práticas em desenvolvimento e
-      acessibilidade. Acredito que a tecnologia pode transformar ideias em
-      realidade.
-    </p>
-    <p>
-      Atualmente, sou Analista de Desenvolvimento Pleno na Edufor Consultoria,
-      onde lidero a implementação de sistemas web utilizando tecnologias como
-      Angular e Node.js. Minha experiência abrange desde a implantação de
-      soluções em cloud AWS (com EC2, S3 e Load Balancer) até a integração de
-      APIs externas, como OpenAI, Meta e Google Analytics. Em projetos
-      anteriores, desenvolvi sistemas de controle de qualidade e dashboards
-      interativos, além de colaborar em equipes ágeis e ambientes dinâmicos.
-    </p>
-    <p>
-      Nos últimos anos, também me aprofundei em práticas de machine learning,
-      engenharia e analise de dados.
-    </p>
-  </div>
-  <div class="educacao-column">
+  <section id="sobre">
+    <div class="title">Sobre mim</div>
+    <div class="sobre-mim">
+      <p>
+        Sou um desenvolvedor full stack apaixonado por criar soluções web
+        acessíveis e de alta performance. Combinando design funcional e robustez
+        técnica, meu trabalho é focado em entregar experiências digitais
+        excepcionais, utilizando as melhores práticas em desenvolvimento e
+        acessibilidade. Acredito que a tecnologia pode transformar ideias em
+        realidade.
+      </p>
+      <p>
+        Atualmente, sou Analista de Desenvolvimento Pleno na Edufor Consultoria,
+        onde lidero a implementação de sistemas web utilizando tecnologias como
+        Angular e Node.js. Minha experiência abrange desde a implantação de
+        soluções em cloud AWS (com EC2, S3 e Load Balancer) até a integração de
+        APIs externas, como OpenAI, Meta e Google Analytics. Em projetos
+        anteriores, desenvolvi sistemas de controle de qualidade e dashboards
+        interativos, além de colaborar em equipes ágeis e ambientes dinâmicos.
+      </p>
+      <p>
+        Nos últimos anos, também me aprofundei em práticas de machine learning,
+        engenharia e analise de dados.
+      </p>
+    </div>
+  </section>
+
+  <section class="educacao-column" id="educacao">
     <div class="title">Educação</div>
 
     <app-card-experiencia
@@ -33,8 +36,8 @@
       [empresa]="educacao.empresa"
       [link]="educacao.link"
     ></app-card-experiencia>
-  </div>
-  <div class="experiencia-column">
+  </section>
+  <section class="experiencia-column" id="experiencias">
     <div class="title">Experiências</div>
 
     <app-card-experiencia
@@ -46,8 +49,8 @@
       [habilidades]="experiencia.habilidades"
       [link]="experiencia.link"
     ></app-card-experiencia>
-  </div> -->
-  <div class="experiencia-column">
+  </section>
+  <section class="experiencia-column" id="projetos">
     <div class="title">Projetos</div>
 
     <app-card-projeto
@@ -59,5 +62,5 @@
       [habilidades]="projeto.habilidades"
       [carousel_imgs]="projeto.carousel_imgs ?? []"
     ></app-card-projeto>
-  </div>
+  </section>
 </div>

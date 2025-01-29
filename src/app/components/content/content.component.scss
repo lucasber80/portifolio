@@ -4,6 +4,7 @@
   justify-content: center;
   gap: 150px;
   width: 100%;
+  padding: 80px 50px 0 50px;
 }
 
 .header {
@@ -13,15 +14,28 @@
 }
 
 .resume {
+  width: 100%;
   max-width: 700px;
 }
 
 @media screen and (max-width: 1000px) {
   .content {
+    width: 100%;
+    padding: 50px 20px 0 20px;
+
     flex-direction: column;
+    gap: 100px;
+  }
+
+  .header {
+    max-width: 100%;
+    width: 100%;
+    min-width: 100%;
   }
 
   .resume {
+    width: 100%;
     max-width: 100%;
+    min-width: 100%;
   }
 }

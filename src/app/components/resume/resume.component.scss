@@ -1,3 +1,6 @@
+.title {
+  margin-bottom: 30px;
+}
 .content {
   width: 100%;
 }
@@ -5,15 +8,13 @@
 .experiencia-column {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .educacao-column {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .sobre-mim {

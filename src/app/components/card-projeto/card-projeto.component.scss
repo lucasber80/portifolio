@@ -57,3 +57,18 @@ p {
     font-weight: 500;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .card-projeto {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .image-icon {
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}

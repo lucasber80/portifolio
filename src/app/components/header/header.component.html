@@ -1,29 +1,50 @@
 <div class="content">
   <h1>Lucas Bernardo</h1>
+  <div style="height: 10px"></div>
   <h2>Software Engineer | Angular | Node.js | Postgres | AWS | Docker</h2>
-  <p>I build accessible, pixel-perfect digital experiences for the web.</p>
 
   <div class="buttons-column">
-    <button class="button-with-line">
+    <button
+      class="button-with-line"
+      (click)="scrollToSection('sobre')"
+      [class.active]="activeSection === 'sobre'"
+    >
       <div class="line"></div>
       SOBRE
     </button>
-    <button class="button-with-line">
+    <button
+      class="button-with-line"
+      (click)="scrollToSection('educacao')"
+      [class.active]="activeSection === 'educacao'"
+    >
       <div class="line"></div>
       EDUCAÇÃO
     </button>
-    <button class="button-with-line">
+    <button
+      class="button-with-line"
+      (click)="scrollToSection('experiencias')"
+      [class.active]="activeSection === 'experiencias'"
+    >
       <div class="line"></div>
       EXPERIÊNCIAS
     </button>
-    <button class="button-with-line">
+    <button
+      class="button-with-line"
+      (click)="scrollToSection('projetos')"
+      [class.active]="activeSection === 'projetos'"
+    >
       <div class="line"></div>
       PROJETOS
     </button>
   </div>
 
   <div class="icons-row">
-    <i class="bi bi-github"></i>
-    <i class="bi bi-linkedin"></i>
+    <a href="https://github.com/lucasber80" target="_blank">
+      <i class="bi bi-github"></i
+    ></a>
+
+    <a href="https://www.linkedin.com/in/lucasber80/" target="_blank"
+      ><i class="bi bi-linkedin"></i
+    ></a>
   </div>
 </div>

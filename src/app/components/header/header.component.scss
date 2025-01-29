@@ -13,8 +13,10 @@
   bottom: 0;
   gap: 20px;
   font-size: 26px;
-  color: #94a3b8;
-
+  margin-top: 20px;
+  a {
+    color: #94a3b8;
+  }
   i:hover {
     color: #c5d1ec;
   }
@@ -45,7 +47,8 @@
   }
 }
 
-.button-with-line:hover {
+.button-with-line:hover,
+.button-with-line.active {
   color: rgb(226 232 240);
 
   .line {
@@ -55,8 +58,17 @@
   }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1000px) {
   .content {
+    position: relative;
+    height: 100%;
+  }
+
+  .buttons-column {
+    display: none;
+  }
+
+  .icons-row {
     position: relative;
   }
 }
