@@ -20,11 +20,11 @@ export class ResumeComponent {
     {
       dates: ['05/2023', 'PRESENTE'],
       cargo: 'Analista de Desenvolvimento Pleno',
-      empresa: 'Edufor consultoria',
-      desc: 'Atuo supervisionando uma pequena equipe de desenvolvimento, atuamos com implementação de sistemas e sites web, administração da plataforma AWS, implantando projetos com EC2, Load balancer, VPC, S3 e conteinerização, além de criar Apis de integração com Google analytics e Meta.',
+      empresa: 'Edufor Consultoria',
+      desc: 'Supervisiono uma pequena equipe de desenvolvimento, atuando na implementação de sistemas e sites web, administração da plataforma AWS, e implantação de projetos utilizando EC2, Load Balancer, VPC, S3 e conteinerização. Além disso, desenvolvo APIs de integração com Google Analytics e Meta.',
       habilidades: [
         'Angular',
-        'NodeJs',
+        'Node.js',
         'Postgres',
         'AWS',
         'Docker',
@@ -36,21 +36,21 @@ export class ResumeComponent {
       dates: ['02/2022', '08/2023'],
       cargo: 'Bolsista de Projetos',
       empresa: 'Universidade de Fortaleza - UNIFOR',
-      desc: 'Participei de um projeto no qual desenvolvi um sistema de controle de qualidade para uma empresa internacional, com a criação de CRUDS e modelagem de tabelas no banco de dados.',
-      habilidades: ['Angular', 'NodeJs', 'Postgres'],
+      desc: 'Participei de um projeto no qual desenvolvi um sistema de controle de qualidade para uma empresa internacional, incluindo a criação de CRUDs e modelagem de tabelas no banco de dados.',
+      habilidades: ['Angular', 'Node.js', 'Postgres'],
       link: 'https://unifor.br',
     },
     {
       dates: ['03/2021', '02/2022'],
-      cargo: 'Estágiario de TI',
+      cargo: 'Estagiário de TI',
       empresa: 'Helio Energias',
-      desc: 'Trabalhei com manutenção de projetos legados da empresa, além da criação de novas aplicações, também criava dashboards integrados com o banco de dados, para avaliação de indicadores da empresa.',
-      habilidades: ['VBA', 'ACESS', 'Flutter', 'Firebase', 'Power BI'],
+      desc: 'Atuei na manutenção de projetos legados da empresa, desenvolvimento de novas aplicações e criação de dashboards integrados ao banco de dados para avaliação de indicadores da empresa.',
+      habilidades: ['VBA', 'Access', 'Flutter', 'Firebase', 'Power BI'],
       link: 'https://helioenergias.com.br',
     },
   ];
 
-  Educacaos = [
+  educacoes = [
     {
       dates: ['2019', '2024'],
       cargo: 'Bacharelado em Ciências da Computação',
@@ -59,7 +59,7 @@ export class ResumeComponent {
     },
     {
       dates: ['2024', '2026'],
-      cargo: 'MBA em Ciências de Dados',
+      cargo: 'MBA em Ciência de Dados',
       empresa: 'Universidade de Fortaleza - UNIFOR',
       link: 'https://unifor.br',
     },
@@ -69,14 +69,14 @@ export class ResumeComponent {
     {
       img: 'assets/projetos/semipresencial/home.png',
       titulo: 'Site Edufor Semipresencial',
-      desc: 'Criação do site para a nova faculdade semipresencial da empresa, utilizando Angular e Node, criei todas as páginas e formulários presentes na plataforma, contendo blog, sistema de matrícula, formulários de contato e etc. Configurei a máquina virtual e os domínios para implantar toda a aplicação na AWS.',
+      desc: 'Desenvolvi o site para a nova faculdade semipresencial da empresa utilizando Angular e Node.js. Criei todas as páginas e formulários presentes na plataforma, incluindo blog, sistema de matrícula, formulários de contato, entre outros. Configurei a máquina virtual e os domínios para implantação da aplicação na AWS.',
       link: 'https://semipresencial.edufor.edu.br',
-      habilidades: ['Angular', 'NodeJs', 'Postgres', 'AWS', 'Docker'],
+      habilidades: ['Angular', 'Node.js', 'Postgres', 'AWS', 'Docker'],
     },
     {
       img: 'assets/projetos/painel-semi/login.png',
-      titulo: 'Site - Painel de controle',
-      desc: 'Painel de controle para faculdade semipresencial, onde é possivel verificar os candidatos inscritos e criar conteudo para as diversas abas do site.',
+      titulo: 'Painel de Controle',
+      desc: 'Desenvolvi um painel de controle para a faculdade semipresencial, permitindo a verificação de candidatos inscritos e a criação de conteúdo para as diversas abas do site.',
       link: '',
       carousel_imgs: [
         'assets/projetos/painel-semi/login.png',
@@ -85,13 +85,13 @@ export class ResumeComponent {
         'assets/projetos/painel-semi/curso-form.png',
         'assets/projetos/painel-semi/noticias.png',
       ],
-      habilidades: ['Angular', 'NodeJs', 'Postgres', 'AWS', 'Docker'],
+      habilidades: ['Angular', 'Node.js', 'Postgres', 'AWS', 'Docker'],
     },
     {
       img: 'assets/projetos/portal/login.png',
-      titulo: 'Portal do inscrito',
-      desc: 'Portal para que os inscritos do site da faculdade Edufor possam realizar o vestibular, enviar a documentação e acompanhar o status da sua matrícula.',
-      habilidades: ['Angular', 'NodeJs', 'Postgres', 'AWS', 'Docker'],
+      titulo: 'Portal do Inscrito',
+      desc: 'Criei um portal para que os inscritos do site da Faculdade Edufor possam realizar o vestibular, enviar a documentação e acompanhar o status da matrícula.',
+      habilidades: ['Angular', 'Node.js', 'Postgres', 'AWS', 'Docker'],
       link: '',
       carousel_imgs: [
         'assets/projetos/portal/login.png',
@@ -101,10 +101,10 @@ export class ResumeComponent {
     },
     {
       img: 'assets/projetos/electroson/login.jpg',
-      titulo: 'Sistema de controle de qualidade',
-      desc: 'Trabalhando junto de uma equipe multidisciplinar de bolsistas, além de professores mestres e doutores no laboratorio LEC da unifor, participei na criação de um sistema de qualidade e controle de Ops para uma empresa de desenvolvimento de materiais Opticos.',
+      titulo: 'Sistema de Controle de Qualidade',
+      desc: 'Trabalhei em colaboração com uma equipe multidisciplinar de bolsistas e professores mestres e doutores no laboratório LEC da UNIFOR. Participei da criação de um sistema de controle de qualidade e gestão de operações para uma empresa de desenvolvimento de materiais ópticos.',
       link: '',
-      habilidades: ['Angular', 'NodeJs', 'Adonisjs', 'Postgres'],
+      habilidades: ['Angular', 'Node.js', 'Adonis.js', 'Postgres'],
       carousel_imgs: [
         'assets/projetos/electroson/login.jpg',
         'assets/projetos/electroson/dashboard.jpg',
@@ -113,6 +113,13 @@ export class ResumeComponent {
         'assets/projetos/electroson/processo.jpg',
         'assets/projetos/electroson/tratamento.jpg',
       ],
+    },
+    {
+      img: 'assets/projetos/dados/dashboard_streamlit.png',
+      titulo: 'Projetos MBA',
+      desc: 'Durante meu MBA em Ciência de Dados, criei diversos projetos envolvendo machine learning, engenharia e análise de dados.',
+      link: 'https://github.com/lucasber80/data-science-projects',
+      habilidades: ['Python', 'Power BI', 'Machine Learning', 'Data Science'],
     },
   ];
 }

@@ -37,7 +37,7 @@ export class CardProjetoComponent {
     if (this.carousel_imgs.length > 0) {
       this.openCarouselDialog();
     } else {
-      window.location.href = this.link;
+      window.open(this.link, '_blank');
     }
   }
 }
