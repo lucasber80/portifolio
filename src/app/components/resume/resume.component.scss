@@ -5,16 +5,11 @@
   width: 100%;
 }
 
-.experiencia-column {
+.item-column {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
-}
-
-.educacao-column {
-  display: flex;
-  flex-direction: column;
-  margin-top: 100px;
+  gap: 30px;
 }
 
 .sobre-mim {

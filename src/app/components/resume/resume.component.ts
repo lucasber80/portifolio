@@ -67,6 +67,18 @@ export class ResumeComponent {
 
   projetos = [
     {
+      img: 'assets/projetos/crm/home.png',
+      titulo: 'Sistema CRM',
+      desc: 'Desenvolvi um CRM educacional para instituições de ensino superior, com a possibilidade de integrações com sites externos e criação de automações.',
+      link: '',
+      carousel_imgs: [
+        'assets/projetos/crm/home.png',
+        'assets/projetos/crm/dashboard.png',
+        'assets/projetos/crm/funil.png',
+      ],
+      habilidades: ['Angular', 'Node.js', 'Postgres', 'AWS', 'Docker'],
+    },
+    {
       img: 'assets/projetos/semipresencial/home.png',
       titulo: 'Site Edufor Semipresencial',
       desc: 'Desenvolvi o site para a nova faculdade semipresencial da empresa utilizando Angular e Node.js. Criei todas as páginas e formulários presentes na plataforma, incluindo blog, sistema de matrícula, formulários de contato, entre outros. Configurei a máquina virtual e os domínios para implantação da aplicação na AWS.',
